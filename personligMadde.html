@@ -3,9 +3,40 @@
     <head>
         <title>Madelen</title>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" href="projektCSS.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="smallscreen.css" />
+        <script src="https://kit.fontawesome.com/d1b708bafd.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div class="fas fa-bars" id="menu-icon"></div>      
+    <nav id="menu" style="margin-top: 0px;">
+        <ul class="navbar">
+            <li class="navbar-item">
+                <a id="navicon" class="nav-link">
+                    <span class="fas fa-bars"></span>
+                    <span class="link-text">Meny</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a id="framsida" href="index.html" class="nav-link">
+                    <span class="fas fa-home"></span>
+                    <span class="link-text">Frontpage</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a id="gruppmedlemmar" href="introduktion.html" class="nav-link" >
+                    <span class="fas fa-user-friends"></span> 
+                    <span class="link-text">Personer</span>
+                </a>                   
+            </li>
+            <li class="navbar-item">
+                <a id="kontakt" href="kontakt.html" class="nav-link">
+                    <span class="fas fa-mobile-alt"></span>
+                    <span class="link-text">Kontakt</span>
+                </a>    
+            </li>
+        </ul>
+    </nav>
         <div class="allt">
             <img src="madde.jpg" alt="Madde" class="portfolioBild" />
             <div class="text">
@@ -26,6 +57,7 @@
             </div>
 
         </div>
+        <script src="menu.js"></script>
     </body>
 
 

@@ -61,3 +61,64 @@ main {
     border: 3px solid brown;
     border-radius: 10px;
 }
+h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: darkred;
+    text-align: center;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: darkred;
+}
+p {
+    font-family: sans-serif;
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+.portfolioBild {
+    border-radius: 25px;
+    align-content: center;
+    width: 60%;
+}
+.staplar {
+    background-color: rgb(255, 170, 170);
+    border-radius: 25px;
+    width: 80%;
+    padding-left: 10%; padding-right: 10%;
+    padding-top: 5%; padding-bottom: 5%;
+    font-size: medium;
+    font-family: sans-serif;
+    color: darkred;
+    text-align: left;
+    font-weight: 100;
+}
+.hel {
+    width: auto;
+    border-radius: 25px;
+    background-color: ghostwhite;
+    color: darkred;
+    border-color: darkred;
+    border-style: solid;
+    font-size: medium;
+    font-weight: lighter;
+}
+#språk1 {
+    width: 30%;
+    background-color: darkred;
+    color: ghostwhite;
+    font-family: sans-serif;
+    border-radius: 25px;
+    text-align: center;
+}
+#språk2 {
+    width: 50%;
+    background-color: darkred;
+    color: ghostwhite;
+    font-family: sans-serif;
+    border-radius: 25px;
+    text-align: center;
+}
