@@ -3,7 +3,7 @@
     --text-primary: white;
     --text-secondary: gray;
     --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-secondary: rgb(85, 0, 0);
 }
 body {
     color: black;
