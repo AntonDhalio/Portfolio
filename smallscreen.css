@@ -1,8 +1,8 @@
 :root {
     font-size: 16px;
-    --text-primary: white;
+    --text-primary: rgb(0, 0, 0);
     --text-secondary: gray;
-    --bg-primary: #23232e;
+    --bg-primary: rgb(255, 170, 170);
     --bg-secondary: rgb(85, 0, 0);
 }
 body {
@@ -80,9 +80,9 @@ p {
     text-align: center;
 }
 .portfolioBild {
-    border-radius: 25px;
+    border-radius: 50%;
     align-content: center;
-    width: 60%;
+    width: 20%;
 }
 .staplar {
     background-color: rgb(255, 170, 170);
