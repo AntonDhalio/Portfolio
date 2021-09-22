@@ -6,7 +6,7 @@
     --bg-secondary: rgb(85, 0, 0);
 }
 body {
-    color: black;
+    color: rgb(34, 34, 168);
     background-color: white;
     margin: 0px;
     padding: 0px;
