@@ -122,22 +122,5 @@ p {
     font-size: medium;
     font-weight: lighter;
 }
-#språk1 {
-    width: 30%;
-    background-color: darkred;
-    color: ghostwhite;
-    font-family: sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    transition: width 200ms ease;
-}
-#språk2 {
-    width: 50%;
-    background-color: darkred;
-    color: ghostwhite;
-    font-family: sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    transition: width 200ms ease;
-}
+
 
