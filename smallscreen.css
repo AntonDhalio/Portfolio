@@ -124,14 +124,7 @@ p {
     text-align: center;
 }
 .länkBild {
-    width: 21%;
-    border-radius: 50%;
-    float: left; display: inline;
-    padding: 2%;
-    position: relative;
-}
-#länkBildFyra {
-    width: 21%;
+    width: 46%;
     border-radius: 50%;
     float: left; display: inline;
     padding: 2%;

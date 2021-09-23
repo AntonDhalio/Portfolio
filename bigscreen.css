@@ -1,9 +1,9 @@
 :root {
     font-size: 16px;
-    --text-primary: white;
+    --text-primary: rgb(0, 0, 0);
     --text-secondary: gray;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: rgb(255, 170, 170);
+    --bg-secondary: rgb(85, 0, 0);
 }
 body {
     color: black;
@@ -65,4 +65,34 @@ main {
 .fas {
     font-size: 2rem;
     padding-right: 2rem;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: darkred;
+    text-align: center;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: darkred;
+}
+p {
+    font-family: sans-serif;
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+.länkBild {
+    width: 21%;
+    border-radius: 50%;
+    float: left; display: flex;
+    padding: 2%;
+    position: relative;
+}
+.gemensam {
+    padding: 5%;
+    background-color: var(--bg-primary);
+    margin-bottom: 4%;
 }
