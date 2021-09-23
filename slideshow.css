@@ -1,0 +1,30 @@
+.slide-container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;   
+}
+.slides {
+    display: none;
+}
+.slide-img {
+    width: 18rem;
+    height: 10rem;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
