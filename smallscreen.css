@@ -130,8 +130,18 @@ p {
     padding: 2%;
     position: relative;
 }
+#länkBildFyra {
+    width: 21%;
+    border-radius: 50%;
+    float: left; display: inline;
+    padding: 2%;
+    position: relative;
+}
 .gemensam {
     padding: 5%;
     background-color: var(--bg-primary);
-    color: white;
+    margin-bottom: 4%;
+}
+#bildspelStart {
+    width: 100%;
 }
