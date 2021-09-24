@@ -11,15 +11,6 @@ body {
     margin: 0px;
     padding: 0px;
 }
-body::-webkit-scrollbar{
-    width: 0,25rem;
-}
-body::-webkit-scrollbar-track{
-    background: #1e1e24;
-}
-body::-webkit-scrollbar-thumb{
-    background: #6649b8;
-}
 main {
     margin-left: 5rem;
     padding: 1rem;
@@ -92,6 +83,7 @@ p {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 .gemensam {
     padding: 5%;
@@ -102,5 +94,6 @@ p {
     display: flex;
     height: 16rem;
     align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
+
