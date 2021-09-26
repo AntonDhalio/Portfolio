@@ -66,3 +66,32 @@ main {
     font-size: 2rem;
     padding-right: 2rem;
 }
+
+.imgKlass {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projektRuta {
+    background-color: rgb(231, 230, 230);
+    margin-bottom: 3%;
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3 {
+    line-height: 5px;
+}
+
+h2 {
+    color: darkred;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
