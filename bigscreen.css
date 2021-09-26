@@ -85,6 +85,12 @@ p {
     margin-right: auto;
     object-fit: cover;
 }
+.bildText {
+    display: block;
+    text-align: center;
+    position: relative;
+    visibility: hidden;
+}
 .gemensam {
     padding: 5%;
     background-color: var(--bg-primary);
@@ -95,5 +101,8 @@ p {
     height: 16rem;
     align-items: center;
     flex-direction: row;
+}
+.divBild:hover .bildText {
+    visibility: visible;
 }
 
