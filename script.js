@@ -102,5 +102,42 @@ function check_text() {
 };
 
 
+if (localStorage.checkbox && localStorage.checkbox != '') {
+    $('#rememberMe').attr('checked', 'checked');
+    $('#namn').val(localStorage.usrname);
+    $('#mail').val(localStorage.email);
+    $('#phone').val(localStorage.phone);
+   
+} else {
+    $('#rememberMe').removeAttr('checked');
+    $('#namn').val('');
+    $('#mail').val('');
+    $('#phone').val('');
+   
+}
+
+$('#rememberMe').click(function() {
+
+    if ($('#rememberMe').is(':checked')) {
+        // save username and password
+        localStorage.usrname = $('#namn').val();
+        localStorage.email = $('#mail').val();
+        localStorage.phone = $('#phone').val();
+        localStorage.checkbox = $('#rememberMe').val();
+    } else {
+        localStorage.usrname = '';
+        localStorage.email = '';
+        localStorage.phone = '';
+        localStorage.checkbox = '';
+    }
+});
+
+
+
+
+
+
+
+
 
 });
