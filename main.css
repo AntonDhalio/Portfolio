@@ -186,6 +186,7 @@ a:link, a:visited {
     }
     .link-text {
         display: none;
+        width: 3rem;
     }
     #menu:hover {
         width: 14rem;
@@ -199,6 +200,7 @@ a:link, a:visited {
     .fas {
         font-size: 2rem;
         padding-right: 2rem;
+        width: 2rem;
     }
     h1 {
         font-size: 250%;
