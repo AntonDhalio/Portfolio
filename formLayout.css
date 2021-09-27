@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(227, 199, 204);
+    background-color: var(--bg-secondary);
     height: 8%;
     width: 100%;
     margin: 0;
@@ -7,6 +7,10 @@
     position: absolute; top:0;
     
     
+}
+
+#rubrik {
+    color: white;
 }
 
 #divForm {
