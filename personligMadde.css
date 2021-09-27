@@ -26,12 +26,19 @@
     transition: width 200ms ease;
 }
 .portfolioBild {
-    width: 50%
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.bild {
+#bildUppe {
     width: 100%;
     background-color: darkred;
     padding-top: 4%; padding-bottom: 4%;
+} 
+.bild {
+    display: none;
 }
 .text {
     width: 90%;
@@ -40,11 +47,38 @@
 .visa-kunskap {
     width: 90%;
     padding-left: 5%; padding-right: 5%;
+    background-color: rgb(255, 170, 170);
+    border-radius: 25px;
+    padding-top: 2px; padding-bottom: 2px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: darkred;
+    text-align: center;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
 }
 .staplar {
     width: 90%;
     padding-left: 5%; padding-right: 5%;
     padding-top: 1%; padding-bottom: 1%;
+    background-color: rgb(255, 170, 170);
+    border-radius: 25px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: darkred;
+    text-align: left;
+    font-weight: 100;
+}
+.hel {
+    width: auto;
+    border-radius: 25px;
+    background-color: ghostwhite;
+    color: darkred;
+    border-color: darkred;
+    border-style: solid;
+    font-size: medium;
+    font-weight: lighter;
 }
 .right {
     width: 96%;
@@ -55,28 +89,31 @@
     padding: 5%;
     text-align: center;
 }
-h1 {
-    font-family: 'Julius Sans One', sans-serif;
+/* h1 {
+    font-family: 'Didact Gothic', sans-serif;
     font-size: large;
+    font-variant: small-caps;
 }
 h2 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: medium;
+    font-variant: small-caps;
 }
 h3 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: medium;
     font-weight: lighter;
     padding: 0%;
     margin: 0%;
     color: darkred;
+    font-variant: small-caps;
 }
 p {
     font-size: small;
-}
-a:link, a:visited {
+} */
+/* a:link, a:visited {
     color: darkred;
-}
+} */
 @media screen and (min-width: 800px) {
     .portfolioBild {
         width: 70%
@@ -86,7 +123,7 @@ a:link, a:visited {
         display: inline;
         width: 100%;
         background-color: darkred;
-        padding-top: 4%;
+        padding-top: 4%; padding-bottom: 4%;
     }
     .text {
         float: left;
@@ -121,23 +158,29 @@ a:link, a:visited {
         padding: 5%;
         text-align: center;
     }
-    h1 {
-        font-family: 'Julius Sans One', sans-serif;
+    /* h1 {
+        font-family: 'Didact Gothic', sans-serif;
         font-size: 250%;
+        font-variant: small-caps;
     }
     h2 {
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: 'Didact Gothic', sans-serif;
         font-size: large;
+        font-variant: small-caps;
     }
     h3 {
-        font-family: 'Julius Sans One', sans-serif;
+        font-family: 'Didact Gothic', sans-serif;
         font-size: medium;
         font-weight: lighter;
         padding: 0%;
         margin: 0%;
         color: darkred;
+        font-variant: small-caps;
     }
     p {
         font-size: medium;
+    } */
+    #bildUppe{
+        display: none;
     }
 }
