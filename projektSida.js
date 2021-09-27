@@ -28,21 +28,6 @@ $(document).ready(function(){
             var image = $(this).find("image").text();
             var description = $(this).find("description").text();
 
-            //Lägger till datan i tabellen
-            //$(".projektDiv").append(
-            //    "<table class='projektTabell'>" +
-            //    "<tr>" +
-            //    "<th>Title</th><td>"+title+"</td>" +
-            //    "<td rowspan='6' class='lastRow'><img class='imgKlass' src='"+image+"'/></td>" +
-            //    "<tr><th>Manager</th><td>"+manager+"</td></tr>" +
-            //   "<tr><th>Customer</th><td>"+customer+"</td></tr>" +
-            //    "<tr><th>Start Date</th><td>"+startDate+"</td></tr>" +
-            //    "<tr><th>End Date</th><td>"+endDate+"</td></tr>" +
-            //    "<tr><th class='lastRow'>Description</th><td class='lastRow'>"+description+"</td></tr>" +
-            //    "</tr>" +
-            //    "</table>"
-            //);
-
             $(".projektDiv").append(
                 "<div class='projektRuta'>" +
                 "<img class='imgKlass' src='"+image+"'/>" +
