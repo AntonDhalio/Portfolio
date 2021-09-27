@@ -1,4 +1,4 @@
-.slide-container {
+/* .slide-container {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -26,5 +26,26 @@
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+  } */
+
+  .gallery {
+    position: relative;
+    width: 50%;
+    margin: auto;
+  }
+  .img-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background-color: cornflowerblue;
+  }
+  .gallery-img {
+    position: absolute;
+  }
+  .gallery-img img {
+    width: 100%;
+  }
+  .pause {
+    position: absolute;
   }
 
