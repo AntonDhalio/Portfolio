@@ -122,23 +122,3 @@ p {
     border-radius: 25px;
     text-align: center;
 }
-
-.imgKlass {
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.projektRuta {
-    background-color: rgb(231, 230, 230);
-    margin-bottom: 15px;
-    float: left;
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    border-radius: 20px;
-}
-
-h3 {
-    line-height: 1px;
-}
