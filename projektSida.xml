@@ -2,7 +2,17 @@
 
 <projects>
 
- <project id="p1">
+  <project id="p2">
+ <manager>Karl Karlsson</manager>
+ <title>Minimalist Splash</title>
+ <customer>The Minimalist Society</customer>
+ <startDate>2018-04-01</startDate>
+ <endDate>2019-07-31</endDate>
+ <image>bilder/Projekt1.png</image>
+ <description>A website for displaying the minimalist aesthetic.</description>
+ </project>
+
+  <project id="p1">
  <manager>Andreas Andersson</manager>
  <title>Men In Black</title>
  <customer>MiB Scandinavia</customer>
@@ -12,44 +22,34 @@
  <description>A Java-centred corporate application for management purposes.</description>
  </project>
 
-  <project id="p2">
- <manager>Karl Karlsson</manager>
- <title>Learning HTML</title>
- <customer>The university</customer>
- <startDate>2020-04-01</startDate>
- <endDate>2020-07-31</endDate>
- <image>bilder/testPortfolio2.jpeg</image>
- <description>An indepth look at creating applications with HTML.</description>
- </project>
-
   <project id="p3">
  <manager>Torsten Flinck</manager>
- <title>Learning CSS</title>
- <customer>The university</customer>
- <startDate>2018-02-01</startDate>
- <endDate>2019-01-30</endDate>
- <image>bilder/testPortfolio3.jpeg</image>
- <description>An indepth look at creating applications with CSS.</description>
+ <title>Red Animal Society</title>
+ <customer>Animal Club Sweden</customer>
+ <startDate>2019-02-01</startDate>
+ <endDate>2019-04-15</endDate>
+ <image>bilder/Projekt2.png</image>
+ <description>A website hosting the collection of photos of red-toned animals.</description>
  </project>
 
   <project id="p4">
- <manager>Andreas Andersson</manager>
- <title>Learning XML</title>
- <customer>The university</customer>
- <startDate>2021-09-01</startDate>
- <endDate>2021-09-30</endDate>
- <image>bilder/testPortfolio.jpeg</image>
- <description>An indepth look at creating applications with XML.</description>
+ <manager>Tic Tacsson</manager>
+ <title>Tic Tac Toe</title>
+ <customer>Game Universe</customer>
+ <startDate>2020-01-01</startDate>
+ <endDate>2020-09-30</endDate>
+ <image>bilder/Projekt3.png</image>
+ <description>The classic game tic tac toe, with a contemporary colour palette.</description>
  </project>
 
   <project id="p5">
- <manager>Andreas Andersson</manager>
- <title>Learning XML</title>
- <customer>The university</customer>
- <startDate>2021-09-01</startDate>
- <endDate>2021-09-30</endDate>
- <image>bilder/testPortfolio.jpeg</image>
- <description>An indepth look at creating applications with XML.</description>
+ <manager>Faye Sunneson</manager>
+ <title>Sunflower</title>
+ <customer>Clothes &amp; Co.</customer>
+ <startDate>2021-01-15</startDate>
+ <endDate>2021-05-30</endDate>
+ <image>bilder/Projekt4.png</image>
+ <description>Webpage layout for a startup brand.</description>
  </project>
 
 </projects>
