@@ -21,6 +21,7 @@ main {
     height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
+    
 }
 .navbar {
     list-style: none;
@@ -150,15 +151,6 @@ a:link, a:visited {
         margin: 0px;
         padding: 0px;
     }
-    body::-webkit-scrollbar{
-        width: 0,25rem;
-    }
-    body::-webkit-scrollbar-track{
-        background: #1e1e24;
-    }
-    body::-webkit-scrollbar-thumb{
-        background: #6649b8;
-    }
     main {
         margin-left: 5rem;
         padding: 1rem;
@@ -200,6 +192,9 @@ a:link, a:visited {
     }
     #menu:hover .link-text {
         display: block;
+    }
+    #menu-icon {
+        display: none;
     }
     .fas {
         font-size: 2rem;

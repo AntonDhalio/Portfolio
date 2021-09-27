@@ -34,3 +34,118 @@
     text-align: center;
     transition: width 200ms ease;
 }
+.portfolioBild {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bildUppe {
+    width: 100%;
+    background-color: darkred;
+    padding-top: 4%; padding-bottom: 4%;
+} 
+.bild {
+    display: none;
+}
+.text {
+    width: 90%;
+    padding: 5%;
+    
+}
+.visa-kunskap {
+    width: 90%;
+    padding-left: 5%; padding-right: 5%;
+    background-color: rgb(255, 170, 170);
+    border-radius: 25px;
+    padding-top: 2px; padding-bottom: 2px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: darkred;
+    text-align: center;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+.staplar {
+    width: 90%;
+    padding-left: 5%; padding-right: 5%;
+    padding-top: 1%; padding-bottom: 1%;
+    background-color: rgb(255, 170, 170);
+    border-radius: 25px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: darkred;
+    text-align: left;
+    font-weight: 100;
+}
+.hel {
+    width: auto;
+    border-radius: 25px;
+    background-color: ghostwhite;
+    color: darkred;
+    border-color: darkred;
+    border-style: solid;
+    font-size: medium;
+    font-weight: lighter;
+}
+.right {
+    width: 96%;
+    padding: 2%;
+}
+.kontakt {
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+}
+@media screen and (min-width: 800px) {
+    .portfolioBild {
+        width: 70%
+    }
+
+    .bild {
+        float: right;
+        display: inline;
+        width: 100%;
+        background-color: darkred;
+        padding-top: 4%; padding-bottom: 4%;
+    }
+    .text {
+        float: left;
+        width: 54%;
+        padding: 5%;
+        padding-left: 7%;
+        display: inline;
+    }
+    .visa-kunskap {
+        width: 80%;
+        padding-left: 5%; padding-right: 5%;
+    }
+    .staplar {
+        width: 80%;
+        padding-left: 5%; padding-right: 5%;
+        padding-top: 1%; padding-bottom: 1%;
+        text-align: center;
+        margin-left: auto; margin-right: auto;
+    }
+    .right {
+        background-color: darkred;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 2%;
+        height: 100vh;
+    }
+    .kontakt {
+        float: left;
+        display: inline;
+        width: 54%;
+        padding: 5%;
+        text-align: center;
+    }
+    #bildUppe{
+        display: none;
+    }
+}
