@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-//     var besokare = ['', 'bob@gmail.com', '0701234567']
-//     localStorage.setItem('besokare', JSON.stringify(besokare));
-
-//     var retrievedObject = localStorage.getItem('besokare');
-
-// var namn = $('#namn').val();
-// besokare[0] = "bob";
-// console.log(retrievedObject);
-
 // Använder funktionen hide för att gömma textfälten
 $('#name_message').hide();
 $('#mail_message').hide();
