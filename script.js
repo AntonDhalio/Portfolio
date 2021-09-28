@@ -112,22 +112,19 @@ function check_text() {
     }
 };
 
+//Objekt som sparar info från local storage
 var besokare = {
-    'namn' : $('#namn').val(),
-    'epost': $('#mail').val(),
-    'telefon': $('#phone').val()
+    'namn' : localStorage.usrname,
+    'epost': localStorage.email,
+    'telefon': localStorage.phone
 }
-var sparadBesokare = localStorage.getItem('besokare');
 
-if (localStorage.checkbox && localStorage.checkbox != '') {
+
+if (localStorage.checkbox != '') {
     $('#rememberMe').attr('checked', 'checked');
-    $('#namn').val(localStorage.usrname);
-    $('#mail').val(localStorage.email);
-    $('#phone').val(localStorage.phone);
-    // $('#rememberMe').attr('checked', 'checked');
-    // $('#namn').val(sparadBesokare.namn);
-    // $('#mail').val(sparadBesokare.epost);
-    // $('#phone').val(sparadBesokare.telefon);
+    $('#namn').val(besokare.namn);
+    $('#mail').val(besokare.epost);
+    $('#phone').val(besokare.telefon);
 } 
 else {
     $('#rememberMe').removeAttr('checked');
@@ -145,19 +142,12 @@ $('#rememberMe').click(function() {
         localStorage.email = $('#mail').val();
         localStorage.phone = $('#phone').val();
         localStorage.checkbox = $('#rememberMe').val();
-        // localStorage.setItem('besokare', JSON.stringify(besokare));
     } else {
         localStorage.usrname = '';
         localStorage.email = '';
         localStorage.phone = '';
         localStorage.checkbox = '';
-        
     }
 });
-
-
-
-
-// console.log(sparadBesokare);
 
 });
