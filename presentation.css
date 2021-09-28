@@ -47,6 +47,7 @@ body {
     }
     .gemensam {
         padding: 5%;
+        padding-left: 10%; padding-right: 10%;
         background-color: var(--bg-primary);
         margin-bottom: 4%;
     }

@@ -112,14 +112,24 @@ function check_text() {
     }
 };
 
+var besokare = {
+    'namn' : $('#namn').val(),
+    'epost': $('#mail').val(),
+    'telefon': $('#phone').val()
+}
+var sparadBesokare = localStorage.getItem('besokare');
 
 if (localStorage.checkbox && localStorage.checkbox != '') {
     $('#rememberMe').attr('checked', 'checked');
     $('#namn').val(localStorage.usrname);
     $('#mail').val(localStorage.email);
     $('#phone').val(localStorage.phone);
-   
-} else {
+    // $('#rememberMe').attr('checked', 'checked');
+    // $('#namn').val(sparadBesokare.namn);
+    // $('#mail').val(sparadBesokare.epost);
+    // $('#phone').val(sparadBesokare.telefon);
+} 
+else {
     $('#rememberMe').removeAttr('checked');
     $('#namn').val('');
     $('#mail').val('');
@@ -130,17 +140,24 @@ if (localStorage.checkbox && localStorage.checkbox != '') {
 $('#rememberMe').click(function() {
 
     if ($('#rememberMe').is(':checked')) {
-        // save username and password
+        //save username and password
         localStorage.usrname = $('#namn').val();
         localStorage.email = $('#mail').val();
         localStorage.phone = $('#phone').val();
         localStorage.checkbox = $('#rememberMe').val();
+        // localStorage.setItem('besokare', JSON.stringify(besokare));
     } else {
         localStorage.usrname = '';
         localStorage.email = '';
         localStorage.phone = '';
         localStorage.checkbox = '';
+        
     }
 });
-});
 
+
+
+
+// console.log(sparadBesokare);
+
+});

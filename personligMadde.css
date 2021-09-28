@@ -89,31 +89,6 @@
     padding: 5%;
     text-align: center;
 }
-/* h1 {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: large;
-    font-variant: small-caps;
-}
-h2 {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: medium;
-    font-variant: small-caps;
-}
-h3 {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: medium;
-    font-weight: lighter;
-    padding: 0%;
-    margin: 0%;
-    color: darkred;
-    font-variant: small-caps;
-}
-p {
-    font-size: small;
-} */
-/* a:link, a:visited {
-    color: darkred;
-} */
 @media screen and (min-width: 800px) {
     .portfolioBild {
         width: 70%
@@ -158,28 +133,6 @@ p {
         padding: 5%;
         text-align: center;
     }
-    /* h1 {
-        font-family: 'Didact Gothic', sans-serif;
-        font-size: 250%;
-        font-variant: small-caps;
-    }
-    h2 {
-        font-family: 'Didact Gothic', sans-serif;
-        font-size: large;
-        font-variant: small-caps;
-    }
-    h3 {
-        font-family: 'Didact Gothic', sans-serif;
-        font-size: medium;
-        font-weight: lighter;
-        padding: 0%;
-        margin: 0%;
-        color: darkred;
-        font-variant: small-caps;
-    }
-    p {
-        font-size: medium;
-    } */
     #bildUppe{
         display: none;
     }
