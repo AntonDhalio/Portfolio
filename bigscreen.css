@@ -1,9 +1,9 @@
 :root {
     font-size: 16px;
-    --text-primary: white;
+    --text-primary: rgb(0, 0, 0);
     --text-secondary: gray;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: rgb(255, 170, 170);
+    --bg-secondary: rgb(85, 0, 0);
 }
 body {
     color: black;
@@ -55,6 +55,7 @@ main {
 }
 .link-text {
     display: none;
+    text-align: center;
 }
 #menu:hover {
     width: 14rem;
@@ -65,4 +66,7 @@ main {
 .fas {
     font-size: 2rem;
     padding-right: 2rem;
+}
+#menu-icon {
+     display: none;
 }
