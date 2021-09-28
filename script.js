@@ -132,12 +132,24 @@ $('#rememberMe').click(function() {
     }
 });
 
+/*
 
+localStorage.usrname = kontakt.namn
+        localStorage.email = $('#mail').val();
+        localStorage.phone = $('#phone').val();
+        
 
+        var json = '{"namn" : "Bob"},{"mail" : "bob@live.se"}, {"telefon" : "1234567899"}';
 
-
-
+var user = JSON.parse(json);
+console.log(user.namn);
+*/
 
 
 
 });
+
+var json = '{"namn" : "Bob"},{"mail" : "bob@live.se"}, {"telefon" : "1234567899"}';
+
+var user = JSON.parse(json);
+alert(user.namn);
