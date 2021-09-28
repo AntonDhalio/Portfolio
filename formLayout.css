@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-primary);
     height: 8%;
     width: 100%;
     margin: 0;
@@ -61,6 +61,8 @@
 }
 
 
+
+
 @media only screen and (min-width: 800px) {
     #form {
         width: auto;
@@ -69,7 +71,7 @@
         margin: 0;
     }
 
-    .facebook {
+   /* .facebook {
         width: 50%;
         height: auto;
         padding: 0;
@@ -78,6 +80,7 @@
         
 
     }
+    
 
    .twitter {
     width: 50%;
@@ -86,24 +89,34 @@
     margin-right: 340px;
     background-color: yellow;
    }
+   */
 
-   #facebookImg {
-    width: 5vw;
-}
+
 
 .loggor {
-    width: 100%;
+    width: 50%;
     height: auto;
-    margin: 0;
+    margin-left: 40%;
+    padding-left: 0%;
     display: flex;
     align-items: center;
-    background-color: red;
 
    
 }
 
 #twitterImg {
     width: 5vw;
+    padding: 0;
+    margin: 0;
 
 }
+#facebookImg {
+    width: 5vw;
+}
+
+#rememberMe {
+    
+}
+
+
   }
