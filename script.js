@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 // Använder funktionen hide för att gömma textfälten
 $('#name_message').hide();
 $('#mail_message').hide();
@@ -144,3 +143,4 @@ $('#rememberMe').click(function() {
     }
 });
 });
+
