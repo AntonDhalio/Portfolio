@@ -11,9 +11,11 @@ $(document).ready(function() {
     $(".visa-kunskap").delay(1600).slideDown(500);
     $("#menu-icon").click(function(){
         $("#menu").show(400);
+        $("#menu-icon").hide();
     });
     $("#navicon").click(function(){
         $("#menu").hide(400);
+        $("#menu-icon").show();
     });
     $(".visa-kunskap").click(function(){
         $(".visa-kunskap").slideUp(200);

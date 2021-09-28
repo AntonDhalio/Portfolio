@@ -4,11 +4,42 @@
         <title>Presentationer</title>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" media="only screen and (min-width: 800px)" href="bigscreen.css" /> -->
-        <link rel="stylesheet" href="smallscreen.css" />
-        <script src="http://code.jquery.com/jquery-latest.js"></script> 
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="presentation.css" />
+        <script src="https://kit.fontawesome.com/d1b708bafd.js" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="jquery.js"></script> 
     </head>
     <body>
+        <div class="fas fa-bars" id="menu-icon"></div>      
+        <nav id="menu" style="margin-top: 0px;">
+            <ul class="navbar">
+                <li class="navbar-item">
+                    <a id="navicon" class="nav-link">
+                        <span class="fas fa-bars"></span>
+                        <span class="link-text">Meny</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a id="framsida" href="index.html" class="nav-link">
+                        <span class="fas fa-home"></span>
+                        <span class="link-text">Frontpage</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a id="gruppmedlemmar" href="Presentationer.html" class="nav-link" >
+                        <span class="fas fa-user-friends"></span> 
+                        <span class="link-text">Personer</span>
+                    </a>                   
+                </li>
+                <li class="navbar-item">
+                    <a id="kontakt" href="form.html" class="nav-link">
+                        <span class="fas fa-mobile-alt"></span>
+                        <span class="link-text">Kontakt</span>
+                    </a>    
+                </li>
+            </ul>
+        </nav>
         <div class="gemensam">
             <h1>Grupp 17</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -20,18 +51,18 @@
                 <h2 class="bildText">Madelen</h2>
             </div>
             <div class="divBild">
-                <a href="personligMadde.html"><img src="bilder/madde.jpg" alt="Madde" class="länkBild" id="länkBild2" /></a>
-                <h2 class="bildText">Madelen</h2>
+                <a href="personligMathilda.html"><img src="bilder/tilly.jpg" alt="Madde" class="länkBild" id="länkBild2" /></a>
+                <h2 class="bildText">Mathilda</h2>
             </div>
             <div class="divBild">
-                <a href="personligMadde.html"><img src="bilder/madde.jpg" alt="Madde" class="länkBild" id="länkBild3" /></a>
-                <h2 class="bildText">Madelen</h2>
+                <a href="personligIsabella.html"><img src="bilder/isabella.jpg" alt="Madde" class="länkBild" id="länkBild3" /></a>
+                <h2 class="bildText">Isabella</h2>
             </div>
             <div class="divBild">
                 <a href="personligAnton.html"><img src="bilder/Profil.jpg" alt="Anton" class="länkBild" id="länkBild4" /></a>
                 <h2 class="bildText" >Anton</h2>
             </div>
         </div>
-        <script src="js.js"></script>
+        <script src="hover.js"></script>
     </body>
 </html>

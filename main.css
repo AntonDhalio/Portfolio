@@ -20,7 +20,7 @@ main {
     height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
-    
+    z-index: 10;
 }
 .navbar {
     list-style: none;
@@ -34,6 +34,7 @@ main {
 .navbar-item {
     width: 100%;
     height: auto;
+    color: var(--text-secondary);
 }
 .nav-link {
     display: flex;
@@ -99,49 +100,6 @@ h3 {
 a:link, a:visited {
     color: darkred;
 }
-/* .portfolioBild {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-} */
-/* .visa-kunskap {
-    background-color: rgb(255, 170, 170);
-    border-radius: 25px;
-    width: 40%;
-    padding-left: 10%; padding-right: 10%;
-    padding-top: 2px; padding-bottom: 2px;
-    font-size: medium;
-    font-family: sans-serif;
-    color: darkred;
-    text-align: center;
-    font-weight: 100;
-    margin-left: auto;
-    margin-right: auto;
-}
-.staplar {
-    background-color: rgb(255, 170, 170);
-    border-radius: 25px;
-    width: 80%;
-    padding-left: 10%; padding-right: 10%;
-    padding-top: 5%; padding-bottom: 5%;
-    font-size: medium;
-    font-family: sans-serif;
-    color: darkred;
-    text-align: left;
-    font-weight: 100;
-} */
-/* .hel {
-    width: auto;
-    border-radius: 25px;
-    background-color: ghostwhite;
-    color: darkred;
-    border-color: darkred;
-    border-style: solid;
-    font-size: medium;
-    font-weight: lighter;
-} */
 @media screen and (min-width: 800px) {
     :root {
         font-size: 16px;
@@ -166,6 +124,7 @@ a:link, a:visited {
         position: fixed;
         background-color: var(--bg-primary);
         transition: width 200ms ease;
+        z-index: 10;
     }
     .navbar {
         list-style: none;
