@@ -10,7 +10,7 @@ html, body {
     background-color: white;
     margin: 0;
     padding: 0;
-  
+}
 main {
     margin-left: 5rem;
     padding: 1rem;
@@ -91,6 +91,7 @@ h3 {
     color: darkred;
     font-variant: small-caps;
 }
+
 .huvud-text {
     padding: 20px;
 }
