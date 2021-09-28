@@ -19,3 +19,22 @@ $('.pause').click(function(){
     startSS();
   }
 })
+function getFullscreenElement() {
+  return document.fullscreenElement
+  || document.msFullscreenElement
+  || document.mozFullscreenElement
+  || document.webkitFullscreenElement;
+}
+
+function toggleFullscreen() {
+  if (getFullscreenElement()) {
+    document.exitFullscreen();
+  }
+  else {
+    document.getElementById("slideshow").requestFullscreen().catch(console.log);
+    }
+};
+document.addEventListener("dblclick", () => {
+  toggleFullscreen();
+});
+
