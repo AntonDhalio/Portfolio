@@ -5,13 +5,12 @@
     --bg-primary: rgb(255, 170, 170);
     --bg-secondary: rgb(85, 0, 0);
 }
-body {
+html, body {
     color: black;
     background-color: white;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
 main {
     margin-left: 5rem;
     padding: 1rem;
@@ -68,6 +67,7 @@ h1 {
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
     font-variant: small-caps;
+    margin: 0;
 }
 h2 {
     font-size: medium;
@@ -91,6 +91,11 @@ h3 {
     color: darkred;
     font-variant: small-caps;
 }
+
+.huvud-text {
+    padding: 20px;
+}
+
 a:link, a:visited {
     color: darkred;
 }
@@ -186,6 +191,7 @@ a:link, a:visited {
     }
     .link-text {
         display: none;
+        width: 3rem;
     }
     #menu:hover {
         width: 14rem;
