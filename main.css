@@ -10,8 +10,7 @@ html, body {
     background-color: white;
     margin: 0;
     padding: 0;
-}
-
+  
 main {
     margin-left: 5rem;
     padding: 1rem;
@@ -95,6 +94,7 @@ h3 {
 .huvud-text {
     padding: 20px;
 }
+
 a:link, a:visited {
     color: darkred;
 }
@@ -190,6 +190,7 @@ a:link, a:visited {
     }
     .link-text {
         display: none;
+        width: 3rem;
     }
     #menu:hover {
         width: 14rem;
