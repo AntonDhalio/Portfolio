@@ -9,6 +9,8 @@
 
 #rubrik {
     color: white;
+    text-align: center;
+    font-size: 250%;
 }
 
 #divForm {
@@ -16,9 +18,8 @@
     height: auto;
     padding: 5em 5em 0em;
     margin: 0;
-    
-
 }
+
 
 #form input:focus {
     background-color: rgb(238, 227, 223);
@@ -31,17 +32,23 @@
     margin: 0;
 
 }
-
+.loggor {
+    display: block;
+    align-items: center;
+    position: absolute;
+    width: 60%;
+    padding-top: 2rem;
+}
 #twitterImg {
     width: 17vw;
     align-items: center;
-    padding: 1em 10em;
+    padding-left: 3rem;
 }
 
 #facebookImg {
     width: 17vw;
     align-items: center;
-    padding: 1em 5em;
+
 }
 
 
@@ -50,6 +57,7 @@
     height: auto;
     padding: 0;
     margin: 0;
+    text-align: center;
 
 }
 
@@ -69,28 +77,6 @@
         margin: 0;
     }
 
-   /* .facebook {
-        width: 50%;
-        height: auto;
-        padding: 0;
-        margin-left: 300px;
-        background-color: blue;
-        
-
-    }
-    
-
-   .twitter {
-    width: 50%;
-    height: auto;
-    padding: 0;
-    margin-right: 340px;
-    background-color: yellow;
-   }
-   */
-
-
-
 .loggor {
     width: 50%;
     height: auto;
@@ -98,24 +84,16 @@
     padding-left: 0%;
     display: flex;
     align-items: center;
-
-   
 }
 
 #twitterImg {
     width: 5vw;
-    padding: 0;
+    padding: 4rem;
     margin: 0;
 
 }
 #facebookImg {
     width: 5vw;
 }
-
-
-.checkbox2 {
-    margin-left: 70%;
-}
-
 
   }

@@ -39,7 +39,11 @@ function check_name() {
 
     if(RegExp.test(name) && name !== ''){
         $('#name_message').hide();
-    } else {
+    } 
+    else if(name === ""){
+        $('#name_message').hide();
+    }
+    else {
         $('#name_message').html("Namnet måste innehålla minst 3 tecken!");
         $('#name_message').show();
     }
@@ -52,7 +56,11 @@ function check_mail() {
 
     if(RegExp.test(mail)){
         $('#mail_message').hide();
-    } else {
+    } 
+    else if(mail === ""){
+        $('#mail_message').hide();
+    }
+    else{
         $('#mail_message').html("Vänligen skriv en giltig e-postadress!");
         $('#mail_message').show();
 
@@ -66,7 +74,11 @@ function check_phone() {
 
     if(RegExp.test(phone)){
         $('#phone_message').hide();
-    } else {
+    } 
+    else if(phone === ""){
+        $('#phone_message').hide();
+    }
+    else {
         $('#phone_message').html("Vänligen skriv ett giltigt telefonnummer!");
         $('#phone_message').show();
        

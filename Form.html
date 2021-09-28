@@ -36,6 +36,12 @@
                     </a>                   
                 </li>
                 <li class="navbar-item">
+                    <a id="projekt" href="projektSida.html" class="nav-link" >
+                        <span class="fas fa-briefcase"></span> 
+                        <span class="link-text">Projekt</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
                     <a id="kontakt" href="form.html" class="nav-link">
                         <span class="fas fa-mobile-alt"></span>
                         <span class="link-text">Kontakt</span>
@@ -43,8 +49,8 @@
                 </li>
             </ul>
         </nav>
-        <div class = header>
-        <h1 id="rubrik">Kontakta oss</h1>
+        <div class = "header">
+            <h1 id="rubrik">Kontakta oss</h1>
         </div>
 
         <div class="inehåll">
@@ -53,19 +59,21 @@
         <form id = "form" method="POST" action="#">
             <br>Namn:<br>
             <input type="text" name="namn" id="namn" placeholder="Ditt namn" />
+            <br>
             <span class = "error-message" id = "name_message"></span>
 
             <br></br>
             E-postadress:
             <br>
             <input type="text" id = "mail"name="epost" placeholder="Din e-post"/>
+            <br>
             <span class = "error-message" id = "mail_message"></span>
             <br></br>
 
             Telefonnummer:
             <br>
             <input type="text" id="phone" name="phone" placeholder="Ditt telefonnummer" />
-        
+            <br>
             <span class = "error-message" id = "phone_message"></span>
             <br></br>
             <br> Meddelande:<br>
@@ -79,16 +87,14 @@
         <div class = "checkbox2">
         <input type="checkbox" value="lsRememberMe" id="rememberMe"><label class="checkbox" for="rememberMe">Kom ihåg mig</label>
     </div>
-    </div>
-    <div class= "loggor">
-
-        
+    
+    <div class= "loggor">      
             <a href="http://facebook.com"><img id="facebookImg" src="bilder/facebook.png" alt=""></a>
             
-                <a href="http://twitter.com"><img id="twitterImg" src="bilder/twitter2.png" alt=""></a>
+            <a href="http://twitter.com"><img id="twitterImg" src="bilder/twitter2.png" alt=""></a>
             
      </div>
-
+    </div>
 
     </body>
 </html>

@@ -1,3 +1,4 @@
+@media screen and (max-width: 799px) {
 h3 {
     line-height: 5px;
 }
@@ -9,8 +10,13 @@ h2 {
 h1 {
     color: darkred;
     text-align: center;
+    font-size: 250%;
 }
-
+.projektDiv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
 .imgKlass {
     width: 100%;
     border-top-left-radius: 20px;
@@ -26,7 +32,7 @@ h1 {
     text-align: center;
     border-radius: 20px;
 }
-
+}
 h3 {
     line-height: 1px;
 }
@@ -37,6 +43,9 @@ h3 {
         height: 250px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+    }
+    .projektDiv {
+        padding-left: 3%;
     }
     
     .projektRuta {

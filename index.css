@@ -1,0 +1,18 @@
+@media screen and (max-width: 799px){
+    .huvud-text {
+        padding: 20px;
+        padding-left: 40px;
+    }
+    .exempel-text {
+        padding: 2rem;
+        padding-top: 15rem;
+        
+    }
+}
+@media screen and (min-width: 800px){
+    .exempel-text {
+        padding: 8rem;
+        padding-top: 42rem;
+        
+    }
+}
