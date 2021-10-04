@@ -25,7 +25,6 @@ $(document).ready(function() {
 }
 else {
     $(document).ready(function() {
-        $("#menu").show();
         $(".staplar").hide();
         $(".portfolioBild").hide();
         $(".portfolioBild").slideDown(500);

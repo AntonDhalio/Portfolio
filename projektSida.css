@@ -43,6 +43,7 @@ h3 {
         height: 250px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        
     }
     .projektDiv {
         padding-left: 3%;
@@ -56,6 +57,7 @@ h3 {
         margin-left: 2.5%;
         text-align: center;
         border-radius: 20px;
+        margin-top: 3rem;
     }
     
 }

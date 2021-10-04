@@ -16,6 +16,10 @@
     }
 }
 @media screen and (min-width: 800px){
+    .huvud-text {
+        display: block;
+        padding-top: 5rem;
+    }
     .exempel-text{
         width: 50%;
         height: 100%;

@@ -121,11 +121,10 @@ a:link, a:visited {
         padding: 1rem;
     }
     #menu {
-        width: 5rem;
-        height: 100vh;
+        width: 100%;
+        height: 5rem;
         position: fixed;
         background-color: var(--bg-primary);
-        transition: width 200ms ease;
         z-index: 10;
     }
     .navbar {
@@ -133,7 +132,7 @@ a:link, a:visited {
         padding: 0;
         margin: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         height: 100%;
     }
@@ -151,16 +150,10 @@ a:link, a:visited {
         margin: 0 1.5rem;
     }
     .link-text {
-        display: none;
+        display: block;
         width: 3rem;
     }
-    #menu:hover {
-        width: 14rem;
-    }
-    #menu:hover .link-text {
-        display: block;
-    }
-    #menu-icon {
+    #navicon {
         display: none;
     }
     .fas {
