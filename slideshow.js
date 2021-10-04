@@ -34,7 +34,20 @@ function toggleFullscreen() {
     document.getElementById("slideshow").requestFullscreen().catch(console.log);
     }
 };
-document.addEventListener("dblclick", () => {
-  toggleFullscreen();
-});
+
+var klickTid = 0;
+$("#slideshow").on("click", function() {
+  if(klickTid == 0) {
+    klickTid = new Date().getTime();
+  }
+  else {
+    if(((new Date().getTime()) - klickTid) < 800) {
+      toggleFullscreen();
+      klickTid = 0;
+    }
+    else {
+      klickTid = new Date().getTime();
+    }
+  }
+})
 

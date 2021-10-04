@@ -113,8 +113,8 @@ a:link, a:visited {
     body {
         color: black;
         background-color: white;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
     main {
         margin-left: 5rem;
