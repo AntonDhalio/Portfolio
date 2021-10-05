@@ -64,7 +64,7 @@
     padding-left: 5%; padding-right: 5%;
     padding-top: 1%; padding-bottom: 1%;
     background-color: rgb(255, 170, 170);
-    border-radius: 1ch;
+    border-radius: 3ch;
     font-size: medium;
     font-family: sans-serif;
     color: darkred;
@@ -91,6 +91,9 @@
     text-align: center;
 }
 @media screen and (min-width: 800px) {
+    .allt {
+        padding-top: 3rem;
+    }
     .portfolioBild {
         width: 70%
     }
@@ -99,7 +102,7 @@
         display: inline;
         width: 100%;
         background-color: darkred;
-        padding-top: 4%; padding-bottom: 4%;
+        padding-top: 10%; padding-bottom: 4%;
     }
     .text {
         float: left;
