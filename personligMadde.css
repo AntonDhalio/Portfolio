@@ -3,7 +3,7 @@
     background-color: darkred;
     color: ghostwhite;
     font-family: sans-serif;
-    border-radius: 25px;
+    border-radius: 1ch;
     text-align: center;
     transition: width 200ms ease;
 }
@@ -12,7 +12,7 @@
     background-color: darkred;
     color: ghostwhite;
     font-family: sans-serif;
-    border-radius: 25px;
+    border-radius: 1ch;
     text-align: center;
     transition: width 200ms ease;
 }
@@ -21,7 +21,7 @@
     background-color: darkred;
     color: ghostwhite;
     font-family: sans-serif;
-    border-radius: 25px;
+    border-radius: 1ch;
     text-align: center;
     transition: width 200ms ease;
 }
@@ -48,8 +48,8 @@
     width: 90%;
     padding-left: 5%; padding-right: 5%;
     background-color: rgb(255, 170, 170);
-    border-radius: 25px;
-    padding-top: 2px; padding-bottom: 2px;
+    border-radius: 3ch;
+    padding-top: 1vh; padding-bottom: 1vh;
     font-size: medium;
     font-family: sans-serif;
     color: darkred;
@@ -63,7 +63,7 @@
     padding-left: 5%; padding-right: 5%;
     padding-top: 1%; padding-bottom: 1%;
     background-color: rgb(255, 170, 170);
-    border-radius: 25px;
+    border-radius: 3ch;
     font-size: medium;
     font-family: sans-serif;
     color: darkred;
@@ -72,7 +72,7 @@
 }
 .hel {
     width: auto;
-    border-radius: 25px;
+    border-radius: 3ch;
     background-color: ghostwhite;
     color: darkred;
     border-color: darkred;
